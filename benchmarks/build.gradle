@@ -16,6 +16,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+allprojects {
+    repositories {
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    }
+}
 
 buildscript {
     repositories {
